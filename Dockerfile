@@ -13,7 +13,6 @@ RUN apk add --no-cache ca-certificates curl bash \
 
 WORKDIR /data
 
-ADD ./bin /data/bin/
 ADD ./cmd/prometheus-bm/prometheus-bm /data/bin/
 
 ENV PATH=${PATH}:/data/bin
