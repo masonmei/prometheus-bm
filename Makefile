@@ -1,5 +1,5 @@
 GO111MODULES=on
-APP?=prometheus-tester
+APP?=prometheus-benchmarker
 REGISTRY?=masonmei
 COMMIT_SHA=$(shell git rev-parse --short HEAD)
 GOOS:=linux
@@ -55,7 +55,7 @@ setup:
 .PHONY: docker-build
 ## docker-build: builds the stringifier docker image to registry
 docker-build: build
-	docker build -t ${REGISTRY}/${APP}:${IMAGE_TAG} -f Dockerfile .
+	docker build -t ${REGISTRY}/${APP}:${COMMIT_SHA} -f Dockerfile .
 
 .PHONY: docker-push
 ## docker-push: pushes the stringifier docker image to registry
