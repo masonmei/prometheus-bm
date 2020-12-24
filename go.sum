@@ -1,0 +1,10 @@
+github.com/ddliu/go-httpclient v0.6.9 h1:/3hsBVpcgCJwqm1dkVlnAJ9NWuYInbRc+i9FyUXX/LE=
+github.com/ddliu/go-httpclient v0.6.9/go.mod h1:zM9P0OxV4OGGz1pt/ibuj0ooX2SWH9a6MvXZLbT0JMc=
+github.com/jessevdk/go-flags v1.4.0 h1:4IU2WS7AumrZ/40jfhf4QVDMsQwqA7VEHozFRrGARJA=
+github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
+github.com/tidwall/gjson v1.6.4 h1:JKsCsJqRVFz8eYCsQ5E/ANRbK6CanAtA9IUvGsXklyo=
+github.com/tidwall/gjson v1.6.4/go.mod h1:BaHyNc5bjzYkPqgLq7mdVzeiRtULKULXLgZFKsxEHI0=
+github.com/tidwall/match v1.0.1 h1:PnKP62LPNxHKTwvHHZZzdOAOCtsJTjo6dZLCwpKm5xc=
+github.com/tidwall/match v1.0.1/go.mod h1:LujAq0jyVjBy028G1WhWfIzbpQfMO8bBZ6Tyb0+pL9E=
+github.com/tidwall/pretty v1.0.2 h1:Z7S3cePv9Jwm1KwS0513MRaoUe3S01WPbLNV40pwWZU=
+github.com/tidwall/pretty v1.0.2/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
